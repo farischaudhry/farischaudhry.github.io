@@ -2,23 +2,20 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Faris Chaudhry
+Faris Chaudhry
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+faris.chaudhry@outlook.com
 
 Phone
-+1 (213) 352-2795
-
-Birthday
-June 23, 1982
++44(0)7707459296
 
 Location
-Sacramento, California, USA
+North Action, London, UK
 
 # navbar
 
