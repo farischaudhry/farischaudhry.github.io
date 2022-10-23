@@ -97,20 +97,20 @@
 
         <ul class="social-list">
           <li class="social-item">
-            <a href="https://github.com/farischaudhry" class="social-link">
+            <a href="https://github.com/farischaudhry" class="social-link" title="github">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/faris-chaudhry-147336214/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="https://www.linkedin.com/in/faris-chaudhry-147336214/" class="social-link" title="linkedin">
+              <ion-icon name="logo-linkedin" title="linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://stackoverflow.com/users/19837690/farischaudhry" class="social-link">
-              <ion-icon name="logo-stackoverflow"></ion-icon>
+            <a href="https://stackoverflow.com/users/19837690/farischaudhry" class="social-link" title="stackoverflow">
+              <ion-icon name="logo-stackoverflow" title="stackoverflow"></ion-icon>
             </a>
           </li>
         </ul>
@@ -151,6 +151,10 @@
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
           </li>
         </ul>
 
@@ -230,17 +234,6 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-        <section class="skill">
-
-          <h3 class="h3 skills-title">General Information</h3>
-
-          <ul class="skills-list content-card">
-            <ion-icon name="document-attach-outline"></ion-icon>
-
-          </ul>
-
-        </section> <br>
-
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -257,12 +250,10 @@
 
               <h4 class="h4 timeline-item-title">Imperial College London - MEng Maths and Computer Science</h4>
 
-              <span>2022 - 2026</span>
+              <span>Oct 2022 - Jul 2026</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                TBA
               </p>
 
             </li>
@@ -271,11 +262,11 @@
 
               <h4 class="h4 timeline-item-title">The Cotswold School</h4>
 
-              <span>2015 - 2022</span>
+              <span>Sep 2015 - Jul 2022</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                A Levels - A*A*A*A*A(Maths, Further Maths, Computer Science, Extended Project, Physics AS) <br>
+                GCSEs - 9,9,9,9,9,9,99,*2,A(Additional Maths AS)
               </p>
 
             </li>
@@ -297,9 +288,9 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Commerical Group - <em>Work Experience</em></h4>
 
-              <span>2015 — Present</span>
+              <span>Jul 2019</span>
 
               <p class="timeline-text">
                 Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
@@ -327,14 +318,48 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Imperial College London - MEng Maths and Computer Science</h4>
+              <h4 class="h4 timeline-item-title">Gaynor Didcote Award for Outstanding Achievement at A Level</h4>
 
-              <span>2022 - 2026</span>
+              <span>Sep 2022</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                From The Cotswold School.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ann Holland Award for Outstanding Achievement at GCSE</h4>
+
+              <span>Sep 2022</span>
+
+              <p class="timeline-text">
+                From The Cotswold School.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Principal’s Award</h4>
+
+              <span>Sep 2019</span>
+              
+              <p class="timeline-text">
+                From The Cotswold School.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Subject Award in Computer Science</h4>
+
+              <span>Sep 2019</span>
+
+              <p class="timeline-text">
+                From The Cotswold School.
               </p>
 
             </li>
@@ -839,8 +864,46 @@
       </article>
 
 
+      <!--
+        - #CONTACT
+      -->
 
+      <article class="contact" data-page="contact">
 
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?q=Imperial+College+London,+South+Kensington+Campus,+Queen's+Gate,+London,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
 
       </article>
 
