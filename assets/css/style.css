@@ -2,14 +2,9 @@
   #style.css
 \*-----------------------------------*/
 
-
 /**
  * copyright 2022 @codewithsadee
  */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -450,6 +445,8 @@ main {
 ion-icon {
   pointer-events: none;
 }
+
+
 
 
 
