@@ -463,19 +463,21 @@
           <h2 class="h2 article-title">Publications</h2>
         </header>
 
-
+        <section>
           <div class="page-content">
-            <p><script src="./assets/js/bibtexify.js"></script>
-              <link rel="stylesheet" href="./assets/css/bibtexify.css" type="text/css" />
-              <table id="pubTable" class="display">
+            <p>
+              <script src="./assets/js/bibtexify.js"></script>
+              <script src="./assets/js/jquery.js"></script>
+              <link rel="stylesheet" href="./assets/css/bibtexify.css" type="text/css"/>
+              <table id="bibtable" class="display">
               </table>
               <p>
-                <script>
+                <script src="./assets/js/bibtexify.js">
                   bibtexify("./assets/publications.bib", "pubTable");
                 </script>
             </p>
           </div>
-
+        </section>
 
       </article>
 
