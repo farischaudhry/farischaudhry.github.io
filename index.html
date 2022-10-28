@@ -13,9 +13,10 @@
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
   <!--
-    - custom css link
+    - custom css links
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="./assets/css/bibtexify.css" type="text/css">
 
   <!--
     - google font link
@@ -462,21 +463,11 @@
         <header>
           <h2 class="h2 article-title">Publications</h2>
         </header>
-
+        <table id="pubTable" class="display"></table>
         <section>
-          <div class="page-content">
-            <p>
-              <script src="./assets/js/bibtexify.js"></script>
-              <script src="./assets/js/jquery.js"></script>
-              <link rel="stylesheet" href="./assets/css/bibtexify.css" type="text/css"/>
-              <table id="bibtable" class="display">
-              </table>
-              <p>
-                <script src="./assets/js/bibtexify.js">
-                  bibtexify("./assets/publications.bib", "pubTable");
-                </script>
-            </p>
-          </div>
+          <script>
+            bibtexify("https://xleitix.github.io/publication_list/publications.bib", "pubTable");
+          </script>
         </section>
 
       </article>
@@ -535,9 +526,11 @@
 
 
   <!--
-    - custom js link
+    - custom js links
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/bibtexify.js"></script>
+  <script src="./assets/js/jquery.js"></script>
 
   <!--
     - ionicon link
