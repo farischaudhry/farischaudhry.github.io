@@ -463,9 +463,19 @@
           <h2 class="h2 article-title">Publications</h2>
         </header>
 
-        <section class="projects">
 
-        </section>
+          <div class="page-content">
+            <p><script src="./assets/js/bibtexify.js"></script>
+              <link rel="stylesheet" href="./assets/css/bibtexify.css" type="text/css" />
+              <table id="pubTable" class="display">
+              </table>
+              <p>
+                <script>
+                  bibtexify("./assets/publications.bib", "pubTable");
+                </script>
+            </p>
+          </div>
+
 
       </article>
 
