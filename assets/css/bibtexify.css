@@ -30,11 +30,11 @@ span.undefined {
     text-align: center;
     width: 100%;
     font-size: small;
-    -webkit-transform: rotate(-45deg); //Chrome, Safari
-    -moz-transform: rotate(-45deg); //Firefox
-    -o-transform: rotate(-45deg); //Opera
-    -ms-transform: rotate(-45deg); //IE
-    transform: rotate(-45deg); //браузеры без префексов
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .pub {
