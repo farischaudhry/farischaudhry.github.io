@@ -257,7 +257,7 @@ a.bibtexify-link-pdf:hover {
 }
 
 a.bibtexify-link-bibtex {
-  background: transparent url('/assets/images/bibtex.png') no-repeat;
+  background: transparent url('/assets/images/bibtexify/bibtex.png') no-repeat;
   display: inline-block;
   height: 16px;
   width: 16px;
