@@ -18,6 +18,12 @@
   <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
   <link rel="stylesheet" href="./assets/css/bibtexify.css" type="text/css">
 
+<!--
+  - custom scripts
+-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+
   <!--
     - google font link
   -->
@@ -460,16 +466,17 @@
 
       <article class="publications" data-page="publications">
 
+
         <header>
           <h2 class="h2 article-title">Publications</h2>
         </header>
-        <table id="pubTable" class="display"></table>
         <section>
+          <script src="./assets/js/bibtexify.js"></script>
+          <table id="pubTable" class="display"></table>
           <script>
-            bibtexify("https://xleitix.github.io/publication_list/publications.bib", "pubTable");
+            bibtexify("./assets/publications.bib", "pubTable");
           </script>
         </section>
-
       </article>
 
 
@@ -526,11 +533,10 @@
 
 
   <!--
-    - custom js links
+    - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/bibtexify.js"></script>
-  <script src="./assets/js/jquery.js"></script>
+
 
   <!--
     - ionicon link

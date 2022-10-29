@@ -118,23 +118,23 @@ table.display td.center {
 }
 
 .sorting_asc {
-    background: url('images/sort_asc.png') no-repeat center right;
+    background: url('/assets/images/bibtexify/sort_asc.png') no-repeat center right;
 }
 
 .sorting_desc {
-    background: url('images/sort_desc.png') no-repeat center right;
+    background: url('/assets/images/bibtexify/sort_desc.png') no-repeat center right;
 }
 
 .sorting {
-    background: url('images/sort_both.png') no-repeat center right;
+    background: url('/assets/images/bibtexify/sort_both.png') no-repeat center right;
 }
 
 .sorting_asc_disabled {
-    background: url('images/sort_asc_disabled.png') no-repeat center right;
+    background: url('/assets/images/bibtexify/sort_asc_disabled.png') no-repeat center right;
 }
 
 .sorting_desc_disabled {
-    background: url('images/sort_desc_disabled.png') no-repeat center right;
+    background: url('/assets/images/bibtexify/sort_desc_disabled.png') no-repeat center right;
 }
 
 tr.odd {
@@ -213,7 +213,7 @@ div.bibinfo pre code {
 }
 
 a.bibclose {
-  background: transparent url('images/close.png') no-repeat;
+  background: transparent url('/assets/images/bibtexify/close.png') no-repeat;
   display: inline-block;
   height: 21px;
   width: 21px;
@@ -224,7 +224,7 @@ a.bibclose:hover {
 }
 
 a.bibtexify-link-tweet {
-  background: transparent url('images/twitter.png') no-repeat;
+  background: transparent url('/assets/images/bibtexify/twitter.png') no-repeat;
   display: inline-block;
   height: 16px;
   width: 16px;
@@ -235,7 +235,7 @@ a.bibtexify-link-tweet:hover {
 }
 
 a.bibtexify-link-online {
-  background: transparent url('images/online.png') no-repeat;
+  background: transparent url('/assets/images/bibtexify/online.png') no-repeat;
   display: inline-block;
   height: 16px;
   width: 16px;
@@ -246,7 +246,7 @@ a.bibtexify-link-online:hover {
 }
 
 a.bibtexify-link-pdf {
-  background: transparent url('images/pdf.png') no-repeat;
+  background: transparent url('/assets/images/bibtexify/pdf.png') no-repeat;
   display: inline-block;
   height: 16px;
   width: 16px;
@@ -257,7 +257,7 @@ a.bibtexify-link-pdf:hover {
 }
 
 a.bibtexify-link-bibtex {
-  background: transparent url('images/bibtex.png') no-repeat;
+  background: transparent url('/assets/images/bibtex.png') no-repeat;
   display: inline-block;
   height: 16px;
   width: 16px;
