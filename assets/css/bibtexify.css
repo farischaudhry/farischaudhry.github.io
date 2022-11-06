@@ -20,7 +20,7 @@ span.undefined {
 
 .year {
     position: relative;
-    border-bottom: 1px solid #f97f4f;
+    border-bottom: 1px solid #c4b454;
     display: inline-block;
 }
 
@@ -35,10 +35,11 @@ span.undefined {
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    color: var(--white-2);
 }
 
 .pub {
-    border: 1px solid #fbfbfb;
+    border: 1px solid #121212;
     background-color: #3598db;
 }
 
