@@ -35,7 +35,7 @@ span.undefined {
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    color: var(--white-2);
+    color: #ffffff;
 }
 
 .pub {
@@ -89,7 +89,7 @@ span.undefined {
     height: 10px;
     display: inline-block;
     margin: 0 5px 0 15px;
-    color: var(--white-2)
+    color: #ffffff
 }
 
 .legend {
@@ -97,7 +97,7 @@ span.undefined {
     margin-top: 60px;
     text-align: center;
     width: 100%;
-    color: var(--white-2)
+    color: #ffffff
 }
 
 table.display thead th {
@@ -105,24 +105,24 @@ table.display thead th {
     font-weight: bold;
     cursor: pointer;
     cursor: hand;
-    color: var(--white-2)
+    color: #ffffff
 }
 
 table.display tfoot th {
     padding: 3px 10px;
     font-weight: bold;
-    color: var(--white-2)
+    color: #ffffff
 }
 
 table.display td {
     padding: 3px 10px;
-    color: var(--white-2)
+    color: #ffffff
 }
 
 
 table.display td.center {
     text-align: center;
-    color: var(--white-2)
+    color: #ffffff
 }
 
 .sorting_asc {
