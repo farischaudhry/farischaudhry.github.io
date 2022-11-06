@@ -236,6 +236,7 @@ a.bibtexify-link-tweet {
   display: inline-block;
   height: 16px;
   width: 16px;
+  color: #ffffff
 }
 
 a.bibtexify-link-tweet:hover {
@@ -247,6 +248,7 @@ a.bibtexify-link-online {
   display: inline-block;
   height: 16px;
   width: 16px;
+  color: #ffffff
 }
 
 a.bibtexify-link-online:hover {
@@ -258,6 +260,7 @@ a.bibtexify-link-pdf {
   display: inline-block;
   height: 16px;
   width: 16px;
+  color: #ffffff
 }
 
 a.bibtexify-link-pdf:hover {
@@ -269,6 +272,7 @@ a.bibtexify-link-bibtex {
   display: inline-block;
   height: 16px;
   width: 16px;
+  color: #ffffff
 }
 
 a.bibtexify-link-bibtex:hover {
@@ -280,10 +284,20 @@ a.bibtexify-link-bibtex:hover {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: #ffffff
 }
 
 .bibtexify-authors li {
   display:inline;
   margin: 0;
   padding: 0;
+  color: #ffffff
+}
+
+.dataTables_filter {
+    color: #ffffff
+}
+
+.pubTable_info {
+    color: #ffffff
 }
