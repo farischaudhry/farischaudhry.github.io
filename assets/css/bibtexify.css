@@ -138,11 +138,11 @@ table.display td.center {
 }
 
 tr.odd {
-    background-color: #eee;
+    background-color: #282828;
 }
 
 tr.even {
-    background-color: white;
+    background-color: #121212;
 }
 
 div.hidden {
