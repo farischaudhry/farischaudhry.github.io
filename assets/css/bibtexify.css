@@ -301,3 +301,7 @@ a.bibtexify-link-bibtex:hover {
 .dataTables_info {
     color: #ffffff
 }
+
+input {
+    color: #ffffff;
+  }
